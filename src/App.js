@@ -9,7 +9,7 @@ import './styles.css';
 
 function App() {
   return (
-      <Router>
+      <Router basename="/manish-59">
           <Navbar />
           <Routes>
               <Route path="/" element={<Home />} />
